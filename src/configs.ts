@@ -1,32 +1,32 @@
-import TitleImage from './resources/Title.png';
+import TitleImage from './resources/Title.jpg';
 import LocationMapImage from './resources/LocationMap.png';
-import GalleryPhoto1 from './resources/Gallery_Photo_1.png';
-import GalleryPhoto2 from './resources/Gallery_Photo_2.png';
-import GalleryPhoto3 from './resources/Gallery_Photo_3.png';
-import GalleryPhoto4 from './resources/Gallery_Photo_4.png';
-import GalleryPhoto5 from './resources/Gallery_Photo_5.png';
-import GalleryPhoto6 from './resources/Gallery_Photo_6.png';
+import GalleryPhoto1 from './resources/1.jpg';
+import GalleryPhoto2 from './resources/2.jpg';
+import GalleryPhoto3 from './resources/3.jpg';
+import GalleryPhoto4 from './resources/4.jpg';
+import GalleryPhoto5 from './resources/5.jpg';
+import GalleryPhoto6 from './resources/6.jpg';
 
 const Configs: ConfigsType = {
   url: 'http://localhost:3000',
   kakaoToken: '카카오톡 API 토큰을 입력해주세요!',
-  kakaoImage: '카카오톡으로 공유할 때 사용되는 대표이미지 URL을 입력해주세요!',
-  weddingDate: '1970년 01월 01일, 목요일 오전 12시 00분',
-  weddingLocation: '○○○웨딩, ○층 ○○홀',
+  kakaoImage: TitleImage,
+  weddingDate: '2023년 12월 16일, 토요일 오후 6시',
+  weddingLocation: '그랜드힐 컨벤션, 그랜드볼룸',
   groom: {
-    name: '○○○',
-    accountNumber: '○○은행 ***-***-******',
-    fatherName: '○○○',
+    name: '이광현',
+    accountNumber: '토스뱅크 ***-***-******',
+    fatherName: '이경국',
     fatherAccountNumber: '○○은행 ***-***-******',
-    motherName: '○○○',
+    motherName: '최소영',
     motherAccountNumber: '○○은행 ***-***-******',
   },
   bride: {
-    name: '○○○',
+    name: '성지현',
     accountNumber: '○○은행 ***-***-******',
-    fatherName: '○○○',
+    fatherName: '성기석',
     fatherAccountNumber: '○○은행 ***-***-******',
-    motherName: '○○○',
+    motherName: '박윤주',
     motherAccountNumber: '○○은행 ***-***-******',
   },
   titleImage: TitleImage,
